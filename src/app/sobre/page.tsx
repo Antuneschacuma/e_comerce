@@ -1,0 +1,117 @@
+import React from 'react';
+import Image from 'next/image';
+
+const SobreNosPage: React.FC = () => {
+    return (
+        <div className="container mx-auto py-10 px-4">
+            <h1 className="text-3xl font-semibold text-center mb-6">Sobre Nós</h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <div className="relative w-full h-64 mb-4 rounded-lg overflow-hidden">
+                    <Image
+                            src="/images/achieve-1822503_1280.jpg"
+                            alt="Nossa equipe trabalhando em projetos criativos"
+                            layout="responsive"
+                            width={800}
+                            height={600}
+                            objectFit="contain"
+                            className="rounded-lg"
+                            priority
+                        />
+                    </div>
+                    <h2 className="text-xl font-semibold mb-2">Nossa História</h2>
+                    <p className="text-gray-700 mb-4">
+                        Fundada em 2008, a nossa agência nasceu da paixão por conectar marcas aos seus públicos-alvo. 
+                        Começamos como uma pequena equipa de visionários, determinados a revolucionar o mercado de 
+                        publicidade e vendas em Angola. Ao longo dos anos, consolidamos nossa posição como líderes 
+                        no sector, mantendo sempre nosso compromisso com resultados excepcionais e relacionamentos 
+                        duradouros com nossos clientes.
+                    </p>
+                    <p className="text-gray-700 mb-4">
+                        Nossa equipa é composta por especialistas certificados em marketing digital, vendas consultivas 
+                        e estratégias de branding. Combinamos criatividade com análise de dados para desenvolver 
+                        campanhas que geram impacto real e mensurável para seu negócio.
+                    </p>
+                </div>
+                <div>
+                    <div className="relative w-full h-64 mb-4 rounded-lg overflow-hidden">
+                    <Image
+                            src="/images/o-tiro-vermelho-arremessa-setas-no-centro-do-alvo-no-alvo-do-negocio-ou-no-conceito-do-sucesso-do-objetivo_53476-4834.avif"
+                            alt="Nossos valores e princípios"
+                            layout="responsive"
+                            width={800}
+                            height={600}
+                            objectFit="contain"
+                            className="rounded-lg"
+                            priority
+                        />
+                    </div>
+                    <h2 className="text-xl font-semibold mb-2">Nossos Valores</h2>
+                    <ul className="list-disc list-inside text-gray-700 space-y-2">
+                        <li><span className="font-medium">Excelência:</span> Entregamos apenas o melhor, superando expectativas em cada projeto.</li>
+                        <li><span className="font-medium">Inovação:</span> Pioneiros em adoptar novas tecnologias e abordagens criativas.</li>
+                        <li><span className="font-medium">Parceria:</span> Nosso sucesso é medido pelo crescimento dos nossos clientes.</li>
+                        <li><span className="font-medium">Transparência:</span> Relatórios claros e comunicação honesta em todas as etapas.</li>
+                    </ul>
+                    <h2 className="text-xl font-semibold mt-6 mb-2">Nossa Missão</h2>
+                    <p className="text-gray-700">
+                        Transformar desafios de marketing em oportunidades de crescimento. Através de estratégias 
+                        personalizadas e execução impecável, ajudamos empresas angolanas a alcançar seu potencial 
+                        máximo no mercado digital e offline.
+                    </p>
+                </div>
+            </div>
+
+            {/* Seção de Equipe */}
+            <div className="mt-12">
+                <h2 className="text-2xl font-semibold mb-6 text-center">Conheça Nosso Time</h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                    <div className="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <div className="relative w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden border-4 border-blue-100">
+                            <Image
+                                src="/images/IMG_20230604_064620.jpg"
+                                alt="Antunes Chacuma"
+                                layout="fill"
+                                objectFit="cover"
+                                quality={100}
+                            />
+                        </div>
+                        <h3 className="text-lg font-semibold">Antunes Chacuma</h3>
+                        <p className="text-sm text-gray-500 mb-2">Desenvolvedor web</p>
+                        <p className="text-sm text-gray-600">Especialista em criar experiências digitais que convertem visitantes em clientes.</p>
+                    </div>
+                    <div className="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <div className="relative w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden border-4 border-blue-100">
+                            <Image
+                                src="/images/Gemini_Generated_Image_p82uqwp82uqwp82u.jpeg"
+                                alt="Joana Domingos"
+                                layout="fill"
+                                objectFit="cover"
+                                quality={100}
+                            />
+                        </div>
+                        <h3 className="text-lg font-semibold">Joana Domingos</h3>
+                        <p className="text-sm text-gray-500 mb-2">Gerente de Atendimento</p>
+                        <p className="text-sm text-gray-600">Garante que cada cliente receba atenção personalizada e soluções sob medida.</p>
+                    </div>
+                    <div className="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <div className="relative w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden border-4 border-blue-100">
+                            <Image
+                                src="/images/1722786510875.jpeg"
+                                alt="Carlos Zanganha"
+                                layout="fill"
+                                objectFit="cover"
+                                quality={100}
+                            />
+                        </div>
+                        <h3 className="text-lg font-semibold">Carlos Zanganha</h3>
+                        <p className="text-sm text-gray-500 mb-2">Director Executivo</p>
+                        <p className="text-sm text-gray-600">Visão estratégica para guiar nossa agência e nossos clientes rumo ao sucesso.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default SobreNosPage;
