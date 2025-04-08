@@ -37,7 +37,6 @@ const Navbar: React.FC = () => {
             {/* Logo - Versão Simplificada */}
             <Link href="/" className="flex items-center group">
               <div className="relative flex items-center space-x-3">
-                {/* Substitua por sua imagem otimizada */}
                 <div className="relative w-16 h-16">
                   <img 
                     src="/images/shopping-2477511_1280.png" 
@@ -46,7 +45,7 @@ const Navbar: React.FC = () => {
                   />
                 </div>
                 <span className={`text-2xl font-extrabold text-indigo-700 ${isScrolled ? 'text-xl' : 'text-2xl'} transition-all`}>
-                  Antunes'Home
+                  CAZ MEDIA
                 </span>
               </div>
             </Link>

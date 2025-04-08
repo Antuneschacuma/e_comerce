@@ -34,7 +34,7 @@ const Footer = () => {
                   </svg>
                 </div>
                 <span className="text-2xl font-bold bg-gradient-to-r from-indigo-300 to-white bg-clip-text text-transparent">
-                  NEXUS
+                  CAZ MEDIA
                 </span>
               </div>
               <p className="text-indigo-200 leading-relaxed">
