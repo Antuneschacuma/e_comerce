@@ -56,6 +56,7 @@ const Navbar: React.FC = () => {
               {[
                 { href: '/', label: 'Início' },
                 { href: '/sobre', label: 'Sobre Nós' },
+                { href: '/catalogo', label: 'catalogo' },
                 { href: '/servicos', label: 'Nossos Serviços' },
                 { href: '/clientes', label: 'Clientes' },
                 { href: '/contactos', label: 'Contactos' },
@@ -154,6 +155,7 @@ const Navbar: React.FC = () => {
               {[
                 { href: '/', label: 'Início' },
                 { href: '/sobre', label: 'Sobre Nós' },
+                { href: '/catalogo', label: 'catalogo' },
                 { href: '/servicos', label: 'Nossos Serviços' },
                 { href: '/clientes', label: 'Clientes' },
                 { href: '/contactos', label: 'Contactos' },
