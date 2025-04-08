@@ -11,14 +11,14 @@ const ContactosPage: React.FC = () => {
             Estamos aqui para ajudar! Entre em contacto connosco através dos seguintes meios:
           </p>
           <ul className="list-disc list-inside text-gray-700 mb-4">
-            <li><strong>Morada:</strong> [Sua Morada Completa]</li>
-            <li><strong>Telefone:</strong> [Seu Número de Telefone]</li>
-            <li><strong>Email:</strong> [Seu Endereço de Email]</li>
+            <li><strong>Morada:</strong>edificio 445 b/MuculaNgola</li>
+            <li><strong>Telefone:</strong> +244 926425407</li>
+            <li><strong>Email:</strong>info@CarlosZanganha</li>
             {/* Adicione outras formas de contacto */}
           </ul>
           <h2 className="text-xl font-semibold mb-2">Horário de Atendimento</h2>
           <p className="text-gray-700">
-            [Seu Horário de Atendimento]
+            De segunda a sexta: 9h00 - 18h00
           </p>
         </div>
         <div>

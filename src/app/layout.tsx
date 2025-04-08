@@ -19,10 +19,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt">
-      <body className={`${inter.className} flex flex-col min-h-screen`}>
+      <body className={`${inter.className} flex flex-col min-h-screen bg-gradient-to-b from-indigo-950 to-indigo-700`}>
         <Navbar />
         <MobileNav />
-        <main className="flex-grow container mx-auto py-8 px-4">
+        <main className="flex-grow container mx-auto py-8 px-4 bg-white rounded-t-lg shadow-xl">
           {children}
         </main>
         <Footer />
