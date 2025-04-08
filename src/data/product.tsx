@@ -5,7 +5,7 @@ export const products = [
         name: 'Quit de matrial Escolar',
         description: 'Uma descrição detalhada do Produto A.',
         price: 25.99,
-        image: '/images/back-school-witch-school-supplies.jpg',
+        image: '/images/calili/IMG-20250408-WA0002.jpg',
         whatsappLink: 'https://wa.me/SEUNUMERODOWHATSAPP?text=Ol%C3%A1,%20tenho%20interesse%20no%20Produto%20A.'
     },
     {
@@ -13,7 +13,7 @@ export const products = [
         name: 'Nosso Carrosel', 
         description: 'Outra descrição interessante do Produto B.',
         price: 49.50,
-        image: '/images/duisburg-4158910_1280.jpg',
+        image: '/images/calili/IMG-20250408-WA0003.jpg',
         whatsappLink: 'https://wa.me/SEUNUMERODOWHATSAPP?text=Ol%C3%A1,%20tenho%20interesse%20no%20Produto%20B.'
     },
     {
@@ -21,7 +21,7 @@ export const products = [
         name: 'Chao de madeira por Encomenda',
         description: 'Outra descrição interessante do Produto B.',
         price: 49.50,
-        image: '/images/floor-1866663_1280.jpg',
+        image: '/images/calili/IMG-20250408-WA0004.jpg',
         whatsappLink: 'https://wa.me/SEUNUMERODOWHATSAPP?text=Ol%C3%A1,%20tenho%20interesse%20no%20Produto%20B.'
     },
     {
@@ -29,7 +29,7 @@ export const products = [
         name: 'Material de designer',
         description: 'Outra descrição interessante do Produto B.',
         price: 49.50,
-        image: '/images/graphic-designer-4562741_1280.png',
+        image: '/images/calili/IMG-20250408-WA0008.jpg',
         whatsappLink: 'https://wa.me/SEUNUMERODOWHATSAPP?text=Ol%C3%A1,%20tenho%20interesse%20no%20Produto%20B.'
     },
     {
@@ -37,7 +37,7 @@ export const products = [
         name: 'Atados de varaos',
         description: 'Outra descrição interessante do Produto B.',
         price: 49.50,
-        image: '/images/iron-rods-474792_1280.jpg',
+        image: '/images/calili/IMG-20250408-WA0011.jpg',
         whatsappLink: 'https://wa.me/SEUNUMERODOWHATSAPP?text=Ol%C3%A1,%20tenho%20interesse%20no%20Produto%20B.'
     },
     {
@@ -45,7 +45,7 @@ export const products = [
         name: 'tapetes luxo ao limite',
         description: 'Outra descrição interessante do Produto B.',
         price: 49.50,
-        image: '/images/material-4590139_1280.jpg',
+        image: '/images/calili/IMG-20250408-WA0025.jpg',
         whatsappLink: 'https://wa.me/SEUNUMERODOWHATSAPP?text=Ol%C3%A1,%20tenho%20interesse%20no%20Produto%20B.'
     },
     {
@@ -53,7 +53,7 @@ export const products = [
         name: 'Delicias de Ginguba',
         description: 'Outra descrição interessante do Produto B.',
         price: 49.50,
-        image: '/images/peanuts-9317291_1280.jpg',
+        image: '/images/calili/IMG-20250408-WA0034.jpg',
         whatsappLink: 'https://wa.me/SEUNUMERODOWHATSAPP?text=Ol%C3%A1,%20tenho%20interesse%20no%20Produto%20B.'
     },
     {
@@ -61,7 +61,7 @@ export const products = [
         name: 'Pedras para construcao',
         description: 'Outra descrição interessante do Produto B.',
         price: 49.50,
-        image: '/images/stones-6660734_1280.jpg',
+        image: '/images/calili/IMG-20250408-WA0029.jpg',
         whatsappLink: 'https://wa.me/244941717851?text=Ol%C3%A1,%20tenho%20interesse%20no%20Produto%20B.'
     },
 ];

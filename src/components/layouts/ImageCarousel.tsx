@@ -20,7 +20,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images, interval = 5000 }
 
   useEffect(() => {
     const loadStatus = new Array(images.length).fill(false);
-    
+
     images.forEach((img, index) => {
       const image = new window.Image();
       image.src = img.src;
@@ -49,9 +49,8 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images, interval = 5000 }
       {images.map((image, index) => (
         <div
           key={index}
-          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-            index === currentIndex ? 'opacity-100 z-10' : 'opacity-0 z-0'
-          }`}
+          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${index === currentIndex ? 'opacity-100 z-10' : 'opacity-0 z-0'
+            }`}
         >
           {loaded[index] ? (
             <Image
@@ -67,7 +66,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images, interval = 5000 }
               <div className="animate-pulse text-white">Carregando...</div>
             </div>
           )}
-          
+
           <div className="absolute inset-0 bg-gradient-to-t from-indigo-900/80 via-indigo-900/30 to-transparent flex items-end pb-16">
             <div className="container mx-auto px-4 text-center transform transition-all duration-700 ease-in-out translate-y-4">
               <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white drop-shadow-lg">
@@ -77,23 +76,24 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images, interval = 5000 }
                 {image.subtitle}
               </p>
               <button className="px-8 py-3 bg-white text-indigo-800 font-medium rounded-md hover:bg-indigo-100 transition-all duration-300 transform hover:scale-105 shadow-lg">
-                Saiba Mais
+                <a href="/contactos" className="flex items-center">
+                  Saiba Mais
+                </a>
               </button>
             </div>
           </div>
         </div>
       ))}
-      
+
       <div className="absolute bottom-8 left-0 right-0 z-20 flex justify-center space-x-2">
         {images.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentIndex(index)}
-            className={`w-4 h-4 rounded-full transition-all duration-300 ${
-              index === currentIndex 
-                ? 'bg-white w-6' 
-                : 'bg-white/50 hover:bg-white/70'
-            }`}
+            className={`w-4 h-4 rounded-full transition-all duration-300 ${index === currentIndex
+              ? 'bg-white w-6'
+              : 'bg-white/50 hover:bg-white/70'
+              }`}
             aria-label={`Ir para slide ${index + 1}`}
           />
         ))}
