@@ -8,10 +8,10 @@ const Footer = () => {
   return (
     <>
       {/* Divider decorativo */}
-      <div className="w-full h-px bg-gradient-to-r from-transparent via-indigo-500 to-transparent" />
+      <div className="w-full h-px bg-gradient-to-r from-transparent via-green-500 to-transparent" />
       
       {/* Footer principal */}
-      <footer className="bg-gradient-to-b from-indigo-950 to-indigo-900 text-white pt-16 pb-8">
+      <footer className="bg-gradient-to-b from-green-950 to-green-900 text-white pt-16 pb-8">
         <div className="container mx-auto px-4">
           {/* Conteúdo do footer */}
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 mb-16">
@@ -19,12 +19,12 @@ const Footer = () => {
             {/* Coluna 1 - Logo e descrição */}
             <div className="space-y-6">
               <div className="flex items-center space-x-2">
-                <div className="p-2 rounded-lg bg-indigo-800/30 backdrop-blur-sm border border-indigo-700/50">
+                <div className="p-2 rounded-lg bg-green-800/30 backdrop-blur-sm border border-green-700/50">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    className="w-6 h-6 text-indigo-400"
+                    className="w-6 h-6 text-green-400"
                   >
                     <path
                       fillRule="evenodd"
@@ -33,8 +33,8 @@ const Footer = () => {
                     />
                   </svg>
                 </div>
-                <span className="text-2xl font-bold bg-gradient-to-r from-indigo-300 to-white bg-clip-text text-transparent">
-                  CAZ MEDIA
+                <span className="text-2xl font-bold bg-gradient-to-r from-green-300 to-white bg-clip-text text-transparent">
+                  Anglo-Flor
                 </span>
               </div>
               <p className="text-indigo-200 leading-relaxed">
@@ -48,9 +48,9 @@ const Footer = () => {
                   <input
                     type="email"
                     placeholder="Seu e-mail"
-                    className="flex-grow px-4 py-2 rounded-l-lg bg-indigo-800/50 border border-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-white placeholder-indigo-400"
+                    className="flex-grow px-4 py-2 rounded-l-lg bg-green-800/50 border border-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 text-white placeholder-green-400"
                   />
-                  <button className="bg-indigo-600 hover:bg-indigo-500 px-4 py-2 rounded-r-lg transition-colors flex items-center">
+                  <button className="bg-green-600 hover:bg-green-500 px-4 py-2 rounded-r-lg transition-colors flex items-center">
                     <ArrowRight className="w-4 h-4" />
                   </button>
                 </div>
@@ -59,8 +59,8 @@ const Footer = () => {
             
             {/* Coluna 2 - Links rápidos */}
             <div>
-              <h4 className="text-lg font-semibold mb-6 pb-2 border-b border-indigo-800/50 flex items-center">
-                <Sparkles className="w-4 h-4 mr-2 text-indigo-400" />
+              <h4 className="text-lg font-semibold mb-6 pb-2 border-b border-green-800/50 flex items-center">
+                <Sparkles className="w-4 h-4 mr-2 text-green-400" />
                 Links Rápidos
               </h4>
               <ul className="space-y-3">
@@ -77,7 +77,7 @@ const Footer = () => {
                       href={item.href}
                       className="text-indigo-300 hover:text-white transition-colors flex items-center group"
                     >
-                      <span className="w-2 h-2 rounded-full bg-indigo-600 mr-3 group-hover:bg-indigo-400 transition-colors" />
+                      <span className="w-2 h-2 rounded-full bg-green-600 mr-3 group-hover:bg-green-400 transition-colors" />
                       {item.label}
                     </Link>
                   </li>
@@ -87,11 +87,11 @@ const Footer = () => {
             
             {/* Coluna 3 - Contato */}
             <div>
-              <h4 className="text-lg font-semibold mb-6 pb-2 border-b border-indigo-800/50">Informações de Contato</h4>
+              <h4 className="text-lg font-semibold mb-6 pb-2 border-b border-green-800/50">Informações de Contato</h4>
               <address className="not-italic space-y-4">
                 <div className="flex items-start">
-                  <div className="mt-1 mr-3 p-1 rounded-full bg-indigo-800/30">
-                    <Mail className="w-4 h-4 text-indigo-400" />
+                  <div className="mt-1 mr-3 p-1 rounded-full bg-green-800/30">
+                    <Mail className="w-4 h-4 text-green-400" />
                   </div>
                   <div>
                     <p className="text-indigo-200">Email</p>
@@ -99,29 +99,29 @@ const Footer = () => {
                       href="mailto:info@carlosZanganha.com" 
                       className="text-white hover:text-indigo-300 transition-colors"
                     >
-                      info@carlosZanganha.com
+                      alberto2025@gmail.com
                     </a>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="mt-1 mr-3 p-1 rounded-full bg-indigo-800/30">
-                    <Phone className="w-4 h-4 text-indigo-400" />
+                  <div className="mt-1 mr-3 p-1 rounded-full bg-green-800/30">
+                    <Phone className="w-4 h-4 text-green-400" />
                   </div>
                   <div>
                     <p className="text-indigo-200">Telefone</p>
                     <a 
                       href="tel:+244926425407" 
-                      className="text-white hover:text-indigo-300 transition-colors"
+                      className="text-white hover:text-green-300 transition-colors"
                     >
-                      +244 926 425 407
+                      +244 948 53 11 87
                     </a>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="mt-1 mr-3 p-1 rounded-full bg-indigo-800/30">
-                    <MapPin className="w-4 h-4 text-indigo-400" />
+                  <div className="mt-1 mr-3 p-1 rounded-full bg-green-800/30">
+                    <MapPin className="w-4 h-4 text-green-400" />
                   </div>
                   <div>
                     <p className="text-indigo-200">Endereço</p>
@@ -133,7 +133,7 @@ const Footer = () => {
             
             {/* Coluna 4 - Redes sociais */}
             <div>
-              <h4 className="text-lg font-semibold mb-6 pb-2 border-b border-indigo-800/50">Conecte-se Conosco</h4>
+              <h4 className="text-lg font-semibold mb-6 pb-2 border-b border-green-800/50">Conecte-se Conosco</h4>
               <div className="grid grid-cols-2 gap-4 mb-6">
                 {[
                   { icon: Facebook, label: 'Facebook', url: '#' },
@@ -144,7 +144,7 @@ const Footer = () => {
                   <a
                     key={social.label}
                     href={social.url}
-                    className="flex items-center space-x-2 p-3 rounded-lg bg-indigo-800/30 hover:bg-indigo-700/50 transition-colors border border-indigo-800/50 hover:border-indigo-700/70"
+                    className="flex items-center space-x-2 p-3 rounded-lg bg-green-800/30 hover:bg-green-700/50 transition-colors border border-green-800/50 hover:border-green-700/70"
                   >
                     <social.icon className="w-5 h-5 text-indigo-300" />
                     <span className="text-white text-sm">{social.label}</span>
@@ -153,28 +153,28 @@ const Footer = () => {
               </div>
               
               {/* Horário de funcionamento */}
-              <div className="bg-indigo-900/20 p-4 rounded-lg border border-indigo-800/50">
+              <div className="bg-green-900/20 p-4 rounded-lg border border-green-800/50">
                 <h5 className="font-medium text-white mb-2">Horário Comercial</h5>
-                <p className="text-indigo-300 text-sm">Seg-Sex: 8h00 - 18h00</p>
-                <p className="text-indigo-300 text-sm">Sábado: 9h00 - 13h00</p>
+                <p className="text-green-300 text-sm">Seg-Sex: 8h00 - 18h00</p>
+                <p className="text-green-300 text-sm">Sábado: 9h00 - 13h00</p>
               </div>
             </div>
           </div>
           
           {/* Rodapé inferior */}
-          <div className="border-t border-indigo-800/50 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-indigo-400 text-sm">
-              © {currentYear} Carlos Zanganha. Todos os direitos reservados.
+          <div className="border-t border-green-800/50 pt-8 flex flex-col md:flex-row justify-between items-center">
+            <p className="text-green-400 text-sm">
+              © {currentYear} Anglo-flor. Todos os direitos reservados.
             </p>
             
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <Link href="/politica-de-privacidade" className="text-indigo-400 hover:text-white text-sm transition-colors">
+              <Link href="/politica-de-privacidade" className="text-green-400 hover:text-white text-sm transition-colors">
                 Política de Privacidade
               </Link>
-              <Link href="/termos-de-servico" className="text-indigo-400 hover:text-white text-sm transition-colors">
+              <Link href="/termos-de-servico" className="text-green-400 hover:text-white text-sm transition-colors">
                 Termos de Serviço
               </Link>
-              <Link href="/mapa-do-site" className="text-indigo-400 hover:text-white text-sm transition-colors">
+              <Link href="/mapa-do-site" className="text-green-400 hover:text-white text-sm transition-colors">
                 Mapa do Site
               </Link>
             </div>

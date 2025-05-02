@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
   return (
     <>
       {/* Barra superior decorativa */}
-      <div className="w-full h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500" />
+      <div className="w-full h-1 bg-gradient-to-r from-green-800 via-green-600 to-green-300" />
       
       {/* Navbar principal */}
       <nav className={`sticky top-0 z-50 transition-all duration-500 ${isScrolled ? 'py-2 shadow-xl' : 'py-4'} bg-white/90 backdrop-blur-md border-b border-indigo-100`}>
@@ -39,13 +39,13 @@ const Navbar: React.FC = () => {
               <div className="relative flex items-center space-x-3">
                 <div className="relative w-16 h-16">
                   <img 
-                    src="/images/shopping-2477511_1280.png" 
+                    src="/images/png-transparent-gardening-logo-landscaping-design-web-design-leaf-plant-stem.png" 
                     alt="Antunes'Home - Soluções Publicitárias"
                     className="object-contain w-full h-full"
                   />
                 </div>
-                <span className={`text-2xl font-extrabold text-indigo-700 ${isScrolled ? 'text-xl' : 'text-2xl'} transition-all`}>
-                  CAZ MEDIA
+                <span className={`text-2xl font-extrabold bg-gradient-to-r from-green-800 to-green-600 bg-clip-text text-transparent ${isScrolled ? 'text-xl' : 'text-2xl'} transition-all`}>
+                  Anglo-Flor
                 </span>
               </div>
             </Link>
@@ -56,17 +56,15 @@ const Navbar: React.FC = () => {
                 { href: '/', label: 'Início' },
                 { href: '/sobre', label: 'Sobre Nós' },
                 { href: '/catalogo', label: 'catalogo' },
-                { href: '/servicos', label: 'Nossos Serviços' },
-                { href: '/clientes', label: 'Clientes' },
                 { href: '/contactos', label: 'Contactos' },
               ].map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="px-4 py-2 rounded-lg font-medium text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors relative group"
+                  className="px-4 py-2 rounded-lg font-medium text-gray-700 hover:text-green-600 hover:bg-indigo-50 transition-colors relative group"
                 >
                   {item.label}
-                  <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-0.5 bg-indigo-600 w-0 group-hover:w-3/4 transition-all duration-300" />
+                  <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-0.5 bg-green-600 w-0 group-hover:w-3/4 transition-all duration-300" />
                 </Link>
               ))}
             </div>
@@ -80,12 +78,12 @@ const Navbar: React.FC = () => {
                     placeholder="Pesquisar serviços..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    className="border border-gray-300 rounded-full py-2 pl-4 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 w-64 transition-all"
+                    className="border border-gray-300 rounded-full py-2 pl-4 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-green-500 w-64 transition-all"
                     autoFocus
                   />
                   <button 
                     type="submit"
-                    className="absolute right-3 top-1/2 transform -translate-y-1/2 text-indigo-600 hover:text-indigo-800"
+                    className="absolute right-3 top-1/2 transform -translate-y-1/2 text-green-600 hover:text-green-600"
                   >
                     <SearchIcon className="w-4 h-4" />
                   </button>
@@ -93,7 +91,7 @@ const Navbar: React.FC = () => {
               ) : (
                 <button 
                   onClick={() => setShowSearch(true)}
-                  className="p-2 rounded-full hover:bg-indigo-50 text-gray-600 hover:text-indigo-600 transition-colors"
+                  className="p-2 rounded-full hover:bg-indigo-50 text-gray-600 hover:text-green-600 transition-colors"
                 >
                   <SearchIcon className="w-5 h-5" />
                 </button>
@@ -101,7 +99,7 @@ const Navbar: React.FC = () => {
               
               <Link 
                 href="/contactos" 
-                className="bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 transition-colors font-medium"
+                className="bg-green-600 text-white px-6 py-2 rounded-full hover:bg-green-700 transition-colors font-medium"
               >
                 Orçamento
               </Link>
@@ -111,13 +109,13 @@ const Navbar: React.FC = () => {
             <div className="lg:hidden flex items-center space-x-4">
               <button 
                 onClick={() => setShowSearch(!showSearch)}
-                className="p-2 rounded-md text-gray-600 hover:text-indigo-600 hover:bg-indigo-50"
+                className="p-2 rounded-md text-gray-600 hover:text-green-600 hover:bg-indigo-50"
               >
                 <SearchIcon className="w-5 h-5" />
               </button>
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="p-2 rounded-md text-gray-600 hover:text-indigo-600 hover:bg-indigo-50"
+                className="p-2 rounded-md text-gray-600 hover:text-green-600 hover:bg-indigo-50"
               >
                 {isMenuOpen ? <XIcon className="w-6 h-6" /> : <MenuIcon className="w-6 h-6" />}
               </button>
@@ -133,12 +131,12 @@ const Navbar: React.FC = () => {
                   placeholder="Pesquisar serviços..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full border border-gray-300 rounded-full py-2 pl-4 pr-10 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className="w-full border border-gray-300 rounded-full py-2 pl-4 pr-10 focus:outline-none focus:ring-2 focus:ring-green-500"
                   autoFocus
                 />
                 <button 
                   type="submit"
-                  className="absolute right-3 top-1/2 transform -translate-y-1/2 text-indigo-600"
+                  className="absolute right-3 top-1/2 transform -translate-y-1/2 text-green-600"
                 >
                   <SearchIcon className="w-5 h-5" />
                 </button>
@@ -162,7 +160,7 @@ const Navbar: React.FC = () => {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="px-4 py-2 rounded-lg font-medium text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors"
+                  className="px-4 py-2 rounded-lg font-medium text-gray-700 hover:text-green-600 hover:bg-indigo-50 transition-colors"
                   onClick={() => {
                     setIsMenuOpen(false);
                     setShowSearch(false);

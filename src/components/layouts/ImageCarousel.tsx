@@ -75,7 +75,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images, interval = 5000 }
               <p className="text-xl md:text-2xl mb-6 text-indigo-100 drop-shadow-lg">
                 {image.subtitle}
               </p>
-              <button className="px-8 py-3 bg-white text-indigo-800 font-medium rounded-md hover:bg-indigo-100 transition-all duration-300 transform hover:scale-105 shadow-lg">
+              <button className="px-8 py-3 bg-white text-green-800 font-medium rounded-md hover:bg-indigo-100 transition-all duration-300 transform hover:scale-105 shadow-lg">
                 <a href="/contactos" className="flex items-center">
                   Saiba Mais
                 </a>

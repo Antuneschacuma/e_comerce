@@ -53,7 +53,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
         </p>
         
         <div className="w-full flex items-center justify-between mt-2">
-          <h4 className="text-xl font-bold text-indigo-600">
+          <h4 className="text-xl font-bold text-green-600">
             {new Intl.NumberFormat('pt-AO', {
               style: 'currency',
               currency: 'AOA'
