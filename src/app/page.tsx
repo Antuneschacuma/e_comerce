@@ -11,14 +11,14 @@ const carouselImages = [
     src: '/images/prof/WhatsApp Image 2025-05-01 at 20.46.22.jpeg',
     alt: 'Promoção de Cassimbo',
     title: 'O Teu Jardim jamais sera igual',
-    subtitle: 'Até 15% de desconto em servicos de jardinagem',
+    subtitle: 'Até 15% de desconto em serviços de jardinagem',
     cta: 'Ver Ofertas'
   },
   {
     src: '/images/prof/vaso-de-plantas-com-regador.jpg',
     alt: 'Novos Produtos',
     title: 'Paisagismo é conosco mesmo',
-    subtitle: 'Confira os servicos que ja prestamos',
+    subtitle: 'Confira os serviços que ja prestamos',
     cta: 'Novos Produtos'
   },
   {
@@ -92,11 +92,11 @@ const HomePage = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-8 md:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-green-900 mb-3 md:mb-4 relative inline-block">
-              Servicos em Destaque
+              Serviços em Destaque
               <span className="absolute -bottom-1 md:-bottom-2 left-1/2 transform -translate-x-1/2 w-12 md:w-16 h-1 bg-gradient-to-r from-green-400 to-green-500 rounded-full" />
             </h2>
             <p className="text-sm md:text-lg text-gray-600 max-w-2xl mx-auto">
-              Nossos Servicos mais procurados por clientes exigentes
+              Nossos Serviços mais procurados por clientes exigentes
             </p>
           </div>
 
@@ -117,7 +117,7 @@ const HomePage = () => {
               href="/catalogo"
               className="inline-flex items-center text-green-700 hover:text-green-900 font-semibold text-base md:text-lg transition-all duration-300 group"
             >
-              Ver todos os servicos
+              Ver todos os serviços
               <svg
                 className="w-4 h-4 md:w-5 md:h-5 ml-2 transition-transform duration-300 group-hover:translate-x-2"
                 fill="none"
@@ -200,7 +200,7 @@ const HomePage = () => {
                 Mais procurados
               </h2>
               <p className="text-sm md:text-lg text-gray-600 max-w-2xl mx-auto">
-                Os servicos preferidos pelos nossos clientes
+                Os serviços preferidos pelos nossos clientes
               </p>
             </div>
 
@@ -229,13 +229,13 @@ const HomePage = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-3 md:gap-4">
             <Link
-              href="/contato"
+              href="/contactos"
               className="inline-flex items-center px-6 py-3 md:px-8 md:py-4 text-base md:text-lg font-semibold rounded-xl shadow-lg text-green-900 bg-white hover:bg-indigo-50 transition-all duration-300 transform hover:scale-105"
             >
               Fale Conosco
             </Link>
             <Link
-              href="https://wa.me/244926425407"
+              href="https://wa.me/948531187"
               target="_blank"
               className="inline-flex items-center px-6 py-3 md:px-8 md:py-4 text-base md:text-lg font-semibold rounded-xl shadow-lg text-white bg-green-600 hover:bg-green-700 transition-all duration-300 transform hover:scale-105"
             >
