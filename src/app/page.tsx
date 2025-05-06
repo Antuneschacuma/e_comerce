@@ -92,11 +92,11 @@ const HomePage = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-8 md:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-green-900 mb-3 md:mb-4 relative inline-block">
-              Produtos em Destaque
+              Servicos em Destaque
               <span className="absolute -bottom-1 md:-bottom-2 left-1/2 transform -translate-x-1/2 w-12 md:w-16 h-1 bg-gradient-to-r from-green-400 to-green-500 rounded-full" />
             </h2>
             <p className="text-sm md:text-lg text-gray-600 max-w-2xl mx-auto">
-              Nossos produtos mais procurados por clientes exigentes
+              Nossos Servicos mais procurados por clientes exigentes
             </p>
           </div>
 
