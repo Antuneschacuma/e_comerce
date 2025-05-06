@@ -9,7 +9,7 @@ const SobreNosPage: React.FC = () => {
                 <div>
                     <div className="relative w-full h-64 mb-4 rounded-lg overflow-hidden">
                         <Image
-                            src="/images/achieve-1822503_1280.jpg"
+                            src="/images/investment-5241253_1280.jpg"
                             alt="Nossa equipe trabalhando em projetos criativos"
                             layout="responsive"
                             width={800}
@@ -40,7 +40,7 @@ const SobreNosPage: React.FC = () => {
                 <div>
                     <div className="relative w-full h-64 mb-4 rounded-lg overflow-hidden">
                         <Image
-                            src="/images/o-tiro-vermelho-arremessa-setas-no-centro-do-alvo-no-alvo-do-negocio-ou-no-conceito-do-sucesso-do-objetivo_53476-4834.avif"
+                            src="/images/ailerons-1929403_1280.jpg"
                             alt="Nossos valores e princípios"
                             layout="responsive"
                             width={800}

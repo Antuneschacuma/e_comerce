@@ -10,7 +10,7 @@ const carouselImages = [
   {
     src: '/images/prof/WhatsApp Image 2025-05-01 at 20.46.22.jpeg',
     alt: 'Promoção de Cassimbo',
-    title: 'O Jardim jamais sera igual',
+    title: 'O Teu Jardim jamais sera igual',
     subtitle: 'Até 15% de desconto em servicos de jardinagem',
     cta: 'Ver Ofertas'
   },
