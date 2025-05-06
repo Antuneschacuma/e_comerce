@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
                   />
                 </div>
                 <span className={`text-2xl font-extrabold bg-gradient-to-r from-green-800 to-green-600 bg-clip-text text-transparent ${isScrolled ? 'text-xl' : 'text-2xl'} transition-all`}>
-                  Anglo-Flor
+                  Angro-Flor
                 </span>
               </div>
             </Link>

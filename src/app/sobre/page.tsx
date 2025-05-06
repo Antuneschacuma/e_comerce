@@ -8,7 +8,7 @@ const SobreNosPage: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
                     <div className="relative w-full h-64 mb-4 rounded-lg overflow-hidden">
-                    <Image
+                        <Image
                             src="/images/achieve-1822503_1280.jpg"
                             alt="Nossa equipe trabalhando em projetos criativos"
                             layout="responsive"
@@ -21,21 +21,25 @@ const SobreNosPage: React.FC = () => {
                     </div>
                     <h2 className="text-xl font-semibold mb-2">Nossa História</h2>
                     <p className="text-gray-700 mb-4">
-                        Fundada em 2008, a nossa agência nasceu da paixão por conectar marcas aos seus públicos-alvo. 
-                        Começamos como uma pequena equipa de visionários, determinados a revolucionar o mercado de 
-                        publicidade e vendas em Angola. Ao longo dos anos, consolidamos nossa posição como líderes 
-                        no sector, mantendo sempre nosso compromisso com resultados excepcionais e relacionamentos 
-                        duradouros com nossos clientes.
-                    </p>
-                    <p className="text-gray-700 mb-4">
-                        Nossa equipa é composta por especialistas certificados em marketing digital, vendas consultivas 
-                        e estratégias de branding. Combinamos criatividade com análise de dados para desenvolver 
-                        campanhas que geram impacto real e mensurável para seu negócio.
+
+                        ANGRO-FLOR nasceu da paixão por transformar espaços em verdadeiros oásis urbanos.
+                        Começamos como uma pequena equipa de apaixonados por natureza, determinados a levar beleza, harmonia e sustentabilidade para jardins e áreas exteriores de Luanda.
+                        Ao longo dos anos, cultivamos não apenas plantas, mas também relações duradouras com nossos clientes, tornando-nos referência em projetos de paisagismo e manutenção de jardins
+                        Nossa equipa é composta por especialistas certificados em jardinagem ornamental, paisagismo sustentável e sistemas de irrigação inteligente.
+                        Combinamos sensibilidade artística com conhecimento técnico para criar ambientes que encantam os sentidos e respeitam o ecossistema.
+
+                       <br/><br/>  <h2 className="text-xl font-semibold mb-2">O que nos diferencia:</h2>
+
+                        Design personalizado: Cada projeto é único, criado para refletir sua personalidade e estilo de vida
+                        Plantas selecionadas: Trabalhamos com espécies adaptadas ao clima local e de baixa manutenção
+                        Sustentabilidade: Implementamos sistemas de reaproveitamento de água e jardins ecológicos
+                        Manutenção especializada: Cuidamos do seu jardim como se fosse nosso, com técnicas profissionais
+                        Da concepção à execução, cultivamos sonhos verdes que florescem ano após ano
                     </p>
                 </div>
                 <div>
                     <div className="relative w-full h-64 mb-4 rounded-lg overflow-hidden">
-                    <Image
+                        <Image
                             src="/images/o-tiro-vermelho-arremessa-setas-no-centro-do-alvo-no-alvo-do-negocio-ou-no-conceito-do-sucesso-do-objetivo_53476-4834.avif"
                             alt="Nossos valores e princípios"
                             layout="responsive"
@@ -55,14 +59,14 @@ const SobreNosPage: React.FC = () => {
                     </ul>
                     <h2 className="text-xl font-semibold mt-6 mb-2">Nossa Missão</h2>
                     <p className="text-gray-700">
-                        Transformar desafios de marketing em oportunidades de crescimento. Através de estratégias 
-                        personalizadas e execução impecável, ajudamos empresas angolanas a alcançar seu potencial 
-                        máximo no mercado digital e offline.
+                        Transformar espaços externos em refúgios naturais de harmonia e beleza. Através de projetos personalizados
+                        e cuidados especializados, ajudamos nossos clientes a cultivar ambientes que renovam a conexão com a natureza,
+                        elevam o valor de seus imóveis e promovem o bem-estar através do contato com o verde.
                     </p>
                 </div>
             </div>
 
-            {/* Seção de Equipe */}
+{/*         
             <div className="mt-12">
                 <h2 className="text-2xl font-semibold mb-6 text-center">Conheça Nosso Time</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
@@ -109,7 +113,7 @@ const SobreNosPage: React.FC = () => {
                         <p className="text-sm text-gray-600">Visão estratégica para guiar nossa agência e nossos clientes rumo ao sucesso.</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

@@ -34,7 +34,7 @@ const Footer = () => {
                   </svg>
                 </div>
                 <span className="text-2xl font-bold bg-gradient-to-r from-green-300 to-white bg-clip-text text-transparent">
-                  Anglo-Flor
+                  Angro-Flor
                 </span>
               </div>
               <p className="text-indigo-200 leading-relaxed">
@@ -66,10 +66,7 @@ const Footer = () => {
               <ul className="space-y-3">
                 {[
                   { href: '/', label: 'Início' },
-                  { href: '/servicos', label: 'Nossos Serviços' },
-                  { href: '/portfolio', label: 'Portfólio' },
                   { href: '/sobre', label: 'Sobre Nós' },
-                  { href: '/blog', label: 'Blog' },
                   { href: '/contato', label: 'Contato' },
                 ].map((item) => (
                   <li key={item.href}>
@@ -99,7 +96,7 @@ const Footer = () => {
                       href="mailto:info@carlosZanganha.com" 
                       className="text-white hover:text-indigo-300 transition-colors"
                     >
-                      alberto2025@gmail.com
+                     angroflor6@gmail.com
                     </a>
                   </div>
                 </div>
@@ -111,7 +108,7 @@ const Footer = () => {
                   <div>
                     <p className="text-indigo-200">Telefone</p>
                     <a 
-                      href="tel:+244926425407" 
+                      href="tel:+244948531187" 
                       className="text-white hover:text-green-300 transition-colors"
                     >
                       +244 948 53 11 87
@@ -164,7 +161,7 @@ const Footer = () => {
           {/* Rodapé inferior */}
           <div className="border-t border-green-800/50 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-green-400 text-sm">
-              © {currentYear} Anglo-flor. Todos os direitos reservados.
+              © {currentYear} Angro-flor. Todos os direitos reservados.
             </p>
             
             <div className="flex space-x-6 mt-4 md:mt-0">
