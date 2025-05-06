@@ -66,14 +66,14 @@ const SobreNosPage: React.FC = () => {
                 </div>
             </div>
 
-{/*         
+       
             <div className="mt-12">
                 <h2 className="text-2xl font-semibold mb-6 text-center">Conheça Nosso Time</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                     <div className="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
                         <div className="relative w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden border-4 border-blue-100">
                             <Image
-                                src="/images/IMG_20230604_064620.jpg"
+                                src="/images/IMG_20230604_064623.jpg"
                                 alt="Antunes Chacuma"
                                 layout="fill"
                                 objectFit="cover"
@@ -81,7 +81,7 @@ const SobreNosPage: React.FC = () => {
                             />
                         </div>
                         <h3 className="text-lg font-semibold">Antunes Chacuma</h3>
-                        <p className="text-sm text-gray-500 mb-2">Desenvolvedor web</p>
+                        <p className="text-sm text-gray-500 mb-2">Desenvolvedor web e Gestor de marketing</p>
                         <p className="text-sm text-gray-600">Especialista em criar experiências digitais que convertem visitantes em clientes.</p>
                     </div>
                     <div className="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
@@ -101,19 +101,19 @@ const SobreNosPage: React.FC = () => {
                     <div className="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
                         <div className="relative w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden border-4 border-blue-100">
                             <Image
-                                src="/images/1722786510875.jpeg"
+                                src="/images/WhatsApp Image 2025-05-06 at 15.04.00.jpeg"
                                 alt="Carlos Zanganha"
                                 layout="fill"
                                 objectFit="cover"
                                 quality={100}
                             />
                         </div>
-                        <h3 className="text-lg font-semibold">Carlos Zanganha</h3>
+                        <h3 className="text-lg font-semibold">Alberto Jacinto</h3>
                         <p className="text-sm text-gray-500 mb-2">Director Executivo</p>
-                        <p className="text-sm text-gray-600">Visão estratégica para guiar nossa agência e nossos clientes rumo ao sucesso.</p>
+                        <p className="text-sm text-gray-600">Visão estratégica para guiar nossa Plataforma e nossos clientes rumo ao sucesso.</p>
                     </div>
                 </div>
-            </div> */}
+            </div> 
         </div>
     );
 };
