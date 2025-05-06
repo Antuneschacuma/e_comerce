@@ -12,7 +12,7 @@ const ContactosPage: React.FC = () => {
           </p>
           <ul className="list-disc list-inside text-gray-700 mb-4">
             <li><strong>Morada:</strong>edificio 445 b/MuculaNgola</li>
-            <li><strong>Telefone:</strong> +244 948 53 11 87</li>
+            <li><strong>Telefone:</strong> +244 948 53 11 87/ 924 00 65 89</li>
             <li><strong>Email:</strong>angroflor6@gmail.com.</li>
             {/* Adicione outras formas de contacto */}
           </ul>

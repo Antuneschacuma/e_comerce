@@ -28,7 +28,7 @@ const SobreNosPage: React.FC = () => {
                         Nossa equipa é composta por especialistas certificados em jardinagem ornamental, paisagismo sustentável e sistemas de irrigação inteligente.
                         Combinamos sensibilidade artística com conhecimento técnico para criar ambientes que encantam os sentidos e respeitam o ecossistema.
 
-                       <br/><br/>  <h2 className="text-xl font-semibold mb-2">O que nos diferencia:</h2>
+                        <br /><br />  <h2 className="text-xl font-semibold mb-2">O que nos diferencia:</h2>
 
                         Design personalizado: Cada projeto é único, criado para refletir sua personalidade e estilo de vida
                         Plantas selecionadas: Trabalhamos com espécies adaptadas ao clima local e de baixa manutenção
@@ -66,7 +66,7 @@ const SobreNosPage: React.FC = () => {
                 </div>
             </div>
 
-       
+
             <div className="mt-12">
                 <h2 className="text-2xl font-semibold mb-6 text-center">Conheça Nosso Time</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
@@ -87,20 +87,6 @@ const SobreNosPage: React.FC = () => {
                     <div className="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
                         <div className="relative w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden border-4 border-blue-100">
                             <Image
-                                src="/images/Gemini_Generated_Image_p82uqwp82uqwp82u.jpeg"
-                                alt="Joana Domingos"
-                                layout="fill"
-                                objectFit="cover"
-                                quality={100}
-                            />
-                        </div>
-                        <h3 className="text-lg font-semibold">Joana Domingos</h3>
-                        <p className="text-sm text-gray-500 mb-2">Gerente de Atendimento</p>
-                        <p className="text-sm text-gray-600">Garante que cada cliente receba atenção personalizada e soluções sob medida.</p>
-                    </div>
-                    <div className="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                        <div className="relative w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden border-4 border-blue-100">
-                            <Image
                                 src="/images/WhatsApp Image 2025-05-06 at 15.04.00.jpeg"
                                 alt="Carlos Zanganha"
                                 layout="fill"
@@ -113,7 +99,7 @@ const SobreNosPage: React.FC = () => {
                         <p className="text-sm text-gray-600">Visão estratégica para guiar nossa Plataforma e nossos clientes rumo ao sucesso.</p>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div>
     );
 };
