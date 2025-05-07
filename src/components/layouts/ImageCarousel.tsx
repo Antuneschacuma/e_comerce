@@ -45,7 +45,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images, interval = 5000 }
   }, [images.length, interval]);
 
   return (
-    <div className="relative w-full h-[500px] overflow-hidden bg-indigo-900">
+    <div className="relative w-full h-[500px] overflow-hidden bg-green-900">
       {images.map((image, index) => (
         <div
           key={index}
@@ -67,7 +67,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images, interval = 5000 }
             </div>
           )}
 
-          <div className="absolute inset-0 bg-gradient-to-t from-green-900/80 via-indigo-900/30 to-transparent flex items-end pb-16">
+          <div className="absolute inset-0 bg-gradient-to-t from-green-900/80 via-green-900/30 to-transparent flex items-end pb-16">
             <div className="container mx-auto px-4 text-center transform transition-all duration-700 ease-in-out translate-y-4">
               <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white drop-shadow-lg">
                 {image.title}
