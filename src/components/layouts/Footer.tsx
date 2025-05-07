@@ -165,13 +165,13 @@ const Footer = () => {
             </p>
             
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <Link href="/politica-de-privacidade" className="text-green-400 hover:text-white text-sm transition-colors">
+              <Link href="/" className="text-green-400 hover:text-white text-sm transition-colors">
                 Política de Privacidade
               </Link>
-              <Link href="/termos-de-servico" className="text-green-400 hover:text-white text-sm transition-colors">
+              <Link href="/" className="text-green-400 hover:text-white text-sm transition-colors">
                 Termos de Serviço
               </Link>
-              <Link href="/mapa-do-site" className="text-green-400 hover:text-white text-sm transition-colors">
+              <Link href="/" className="text-green-400 hover:text-white text-sm transition-colors">
                 Mapa do Site
               </Link>
             </div>
