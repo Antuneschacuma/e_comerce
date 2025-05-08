@@ -16,9 +16,6 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: 'Meu Catálogo Online',
   description: 'Um catálogo de produtos incrível',
-  icons: {
-    icon: '/favicon.ico',
-  },
 };
 
 export default function RootLayout({
@@ -27,36 +24,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pt" className="scroll-smooth">
+    <html lang="pt" className="scroll-smooth h-full">
       <body className={`${inter.className} flex flex-col min-h-screen bg-white`}>
         {/* Navbar */}
         <header className="sticky top-0 z-50 w-full bg-white shadow-sm">
           <Navbar />
         </header>
 
-        {/* Conteúdo principal - removido todos os paddings e estilos que podem causar conflitos */}
-        <main className="flex-grow w-full overflow-x-hidden">
+        {/* Conteúdo principal - simplificado */}
+        <main className="flex-grow w-full">
           {children}
         </main>
 
         {/* Footer */}
-        <footer className="w-full bg-green-900 text-white">
-          <Footer />
-        </footer>
-
-        {/* Script para prevenção de zoom em mobile (opcional) */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              document.addEventListener('gesturestart', function(e) {
-                e.preventDefault();
-              });
-              document.addEventListener('touchmove', function(e) {
-                if(e.scale !== 1) e.preventDefault();
-              }, { passive: false });
-            `,
-          }}
-        />
+        <Footer />
       </body>
     </html>
   );

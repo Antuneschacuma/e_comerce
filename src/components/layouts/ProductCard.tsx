@@ -3,13 +3,10 @@ import Image from 'next/image';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
-interface Product {
+interface ProductCardProps {
   id: string;
   image: string;
   whatsappLink: string;
-}
-
-interface ProductCardProps extends Product {
   className?: string;
   badge?: string;
 }
@@ -21,17 +18,18 @@ const ProductCard: React.FC<ProductCardProps> = ({
   className = ''
 }) => {
   return (
-    <Card className={`relative h-64 w-full overflow-hidden ${className}`}>
-      {/* Imagem ocupa todo o espaço do card */}
-      <Image
-        src={image}
-        alt="Product Image"
-        fill
-        className="object-cover"
-        sizes="100vw"
-      />
+    <Card className={`relative aspect-square w-full overflow-hidden ${className}`}>
+      <div className="relative h-full w-full">
+        <Image
+          src={image}
+          alt="Product Image"
+          fill
+          className="object-cover"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        />
+      </div>
 
-      {/* Botão WhatsApp fixo no canto inferior direito */}
+      {/* Botão WhatsApp */}
       <div className="absolute bottom-3 right-3 z-10">
         <Button asChild className="bg-green-600 hover:bg-green-700 text-white shadow-lg">
           <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
