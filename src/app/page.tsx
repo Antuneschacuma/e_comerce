@@ -35,17 +35,16 @@ const HomePage = () => {
   const bestSellers = products.slice(3, 6);
 
   return (
-    <div className="bg-gradient-to-b from-indigo-50 via-white to-indigo-50">
+    <div className="bg-gradient-to-b from-indigo-50 via-white to-indigo-50 w-full">
       {/* Seção Hero com Carrossel */}
-      <section className="relative overflow-hidden">
+      <section className="relative w-full overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-indigo-900/30 to-transparent z-10" />
         <ImageCarousel
           images={carouselImages}
           interval={6000}
-          className="h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] max-h-[800px]"
+          className="h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] max-h-[800px] w-full"
         />
       </section>
-
       {/* Seção de Destaques */}
       <section className="relative py-12 md:py-20 overflow-hidden">
         <div className="absolute -top-32 -right-32 w-64 h-64 bg-indigo-100 rounded-full opacity-20 hidden md:block" />

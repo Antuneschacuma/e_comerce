@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/navigation/Navbar';
@@ -6,10 +6,19 @@ import Footer from '@/components/layouts/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+};
+
 export const metadata: Metadata = {
   title: 'Meu Catálogo Online',
-  description: 'Um catálogo de produtos incrível.',
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+  description: 'Um catálogo de produtos incrível',
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
@@ -19,27 +28,23 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt" className="scroll-smooth">
-      <body className={`${inter.className} flex flex-col min-h-screen bg-gradient-to-b from-green-950 to-green-900`}>
-        {/* Navbar com padding responsivo */}
-        <header className="sticky top-0 z-50 w-full">
+      <body className={`${inter.className} flex flex-col min-h-screen bg-white`}>
+        {/* Navbar */}
+        <header className="sticky top-0 z-50 w-full bg-white shadow-sm">
           <Navbar />
         </header>
 
-        {/* Conteúdo principal com responsividade completa */}
-        <main className="flex-grow">
-          <div className="mx-auto w-full max-w-[1920px]">
-            <div className="px-4 xs:px-6 sm:px-8 md:px-10 lg:px-12 xl:px-16 2xl:px-20 py-6 sm:py-8 md:py-10 lg:py-12 bg-white rounded-t-lg shadow-xl min-h-[calc(100vh-140px)]">
-              {children}
-            </div>
-          </div>
+        {/* Conteúdo principal - removido todos os paddings e estilos que podem causar conflitos */}
+        <main className="flex-grow w-full overflow-x-hidden">
+          {children}
         </main>
 
-        {/* Footer responsivo */}
-        <footer className="w-full">
+        {/* Footer */}
+        <footer className="w-full bg-green-900 text-white">
           <Footer />
         </footer>
 
-        {/* Prevenção de zoom em mobile */}
+        {/* Script para prevenção de zoom em mobile (opcional) */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
