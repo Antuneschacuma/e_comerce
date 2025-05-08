@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center justify-between">
             
             {/* Logo - Versão Simplificada */}
-            {/* <Link href="/" className="flex items-center group">
+            <Link href="/" className="flex items-center group">
               <div className="relative flex items-center space-x-3">
                 <div className="relative w-16 h-16">
                   <img 
@@ -48,7 +48,7 @@ const Navbar: React.FC = () => {
                   Angro-Flor
                 </span>
               </div>
-            </Link> */}
+            </Link>
 
             {/* Links de navegação */}
             <div className="hidden lg:flex items-center space-x-1">
