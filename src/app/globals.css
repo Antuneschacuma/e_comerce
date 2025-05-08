@@ -21,13 +21,3 @@
 .delay-200 {
   animation-delay: 0.2s;
 }
-
-/* Garante que imagens dentro de cards não ultrapassem limites */
-.card-image-container {
-  @apply overflow-hidden;
-}
-
-/* Suaviza o redimensionamento de imagens */
-img {
-  @apply transition-all duration-300;
-}
