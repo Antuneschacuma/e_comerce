@@ -25,7 +25,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-green-300 text-sm sm:text-base">
-              Transformando ideias em realidade digital com soluções inovadoras.
+              Transformando ideias em realidade com soluções inovadoras.
             </p>
           </div>
           
