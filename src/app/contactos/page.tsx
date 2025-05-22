@@ -31,7 +31,7 @@ const ContactosPage: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="font-medium text-gray-900">Morada</h3>
-                  <p className="text-gray-600">Edifício 445 b/MuculaNgola, Luanda</p>
+                  <p className="text-gray-600">Distrito da Vila flor/Kilamba</p>
                 </div>
               </div>
 

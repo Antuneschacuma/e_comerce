@@ -66,6 +66,12 @@ const Footer = () => {
                   +244 948 53 11 87
                 </a>
               </div>
+              <div className="flex items-start">
+                <Phone className="w-4 h-4 mt-1 mr-2 text-green-400" />
+                <a href="tel:+244952204917" className="text-green-300 hover:text-white text-sm sm:text-base">
+                  +244 952 20 49 17
+                </a>
+              </div>
             </div>
           </div>
           
@@ -78,7 +84,7 @@ const Footer = () => {
               {[Facebook, Instagram, Twitter, Linkedin].map((Icon, index) => (
                 <a
                   key={index}
-                  href="#"
+                  href="https://www.facebook.com/profile.php?id=61557006295549"
                   className="p-2 rounded-full bg-green-800/30 hover:bg-green-700/50 transition-colors"
                 >
                   <Icon className="w-5 h-5 text-green-300" />
